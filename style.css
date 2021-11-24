@@ -1,0 +1,39 @@
+body {
+    position: relative;
+    background-color: grey;
+    height: 100vh;
+}
+
+canvas {
+    border: solid 2px orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: white;
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#checkbox a {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
